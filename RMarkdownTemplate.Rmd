@@ -64,8 +64,6 @@ You can insert images in the document as well. For instance, if you have an imag
 
 If you wanted to show an images from a website, then that can also be done.
 
-![This is the image of the R-Project from www.r-project.org](http://www.r-project.org/Rlogo.jpg)
-
 # Tables 
 
 | Header | Header | Right  |
@@ -181,7 +179,7 @@ Person=c("A","B","C","D","E")
 Age=c(15,20,25,30,35)
 page=data.frame(Person,Age)
 mean(Age) # gives the mean of the variable Age, prior to the creation of the dataset
-Age="" (resetting that)
+Age="" # (resetting that)
 mean(Age) # Haha
 mean(page$Age)
 mean(page[,2])
